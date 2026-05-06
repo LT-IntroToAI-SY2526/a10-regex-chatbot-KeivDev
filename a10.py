@@ -6,6 +6,7 @@ from match import match
 from typing import List, Callable, Tuple, Any, Match
 
 
+
 def get_page_html(title: str) -> str:
     for attempt in range(5):
         response = requests.get(
